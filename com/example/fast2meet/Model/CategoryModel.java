@@ -1,0 +1,31 @@
+package com.example.fast2meet.Model;
+
+public class CategoryModel {
+
+
+    String Name,Image;
+
+    public CategoryModel() {
+    }
+
+    public CategoryModel(String name, String image) {
+        Name = name;
+        Image = image;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getImage() {
+        return Image;
+    }
+
+    public void setImage(String image) {
+        Image = image;
+    }
+}
